@@ -1,8 +1,6 @@
-
 const Table1 = () => {
     return (
-        <p>
-        <h2>Critics Rave</h2>
+        <div>
     <table className="collapse">
         <caption> Drink Reviews</caption>
         <thead>
@@ -31,11 +29,11 @@ const Table1 = () => {
         <tr>
             <td>Mojito</td>
             <td>"I can't get enough!" -Mojito Jones</td>
-            <td> ★★★★★</td>
+            <td>★★★★★</td>
         </tr>
         </tbody>
     </table>
-        </p>
+        </div>
     )
 }
 export default Table1
