@@ -10,5 +10,3 @@ const Intro: React.FC<IntroProps> = ({ name1, name2}) => {
 }
 
 export default Intro;
-
-//Testing
