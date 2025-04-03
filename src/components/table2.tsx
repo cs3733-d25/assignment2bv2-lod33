@@ -1,5 +1,6 @@
 const Table2 = () => {
     return (
+
         <>
             <table className="collapse">
                 <caption>Game Record</caption>
