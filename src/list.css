@@ -1,0 +1,85 @@
+/* Unique List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul li {
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+ul li::before {
+    content: '\2022'; /* Bullet point */
+    color: #FFD700;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* Unique List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ol li {
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+ol li:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    text-align: center;
+}
+
+ol li::before {
+    content:"\2022";
+    color: #FFD700;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
